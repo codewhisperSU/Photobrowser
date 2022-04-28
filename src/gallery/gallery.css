@@ -1,0 +1,26 @@
+.gallery{
+   
+    display: grid;
+    gap: 2px 2px;
+    grid-template-columns: repeat(5, minmax(160px, 3fr));
+    padding: 2px;
+    
+    
+}
+
+.gallery-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 4px;
+    min-height: 1px;
+}
+
+
+
+
+
+header{
+    text-align: center;
+    color: yellow;
+    font-size: 2.5rem;
+}
+
